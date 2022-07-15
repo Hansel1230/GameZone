@@ -82,14 +82,16 @@
             // 
             // buttonCerrar
             // 
+            this.buttonCerrar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.buttonCerrar.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonCerrar.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCerrar.Location = new System.Drawing.Point(334, 0);
             this.buttonCerrar.Name = "buttonCerrar";
             this.buttonCerrar.Size = new System.Drawing.Size(85, 33);
             this.buttonCerrar.TabIndex = 0;
             this.buttonCerrar.Text = "Cerrar";
-            this.buttonCerrar.UseVisualStyleBackColor = true;
+            this.buttonCerrar.UseVisualStyleBackColor = false;
             this.buttonCerrar.Click += new System.EventHandler(this.buttonCerrar_Click);
             // 
             // tableLayoutPanel2
@@ -122,9 +124,10 @@
             // textBoxUsuario
             // 
             this.textBoxUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBoxUsuario.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUsuario.Location = new System.Drawing.Point(86, 39);
             this.textBoxUsuario.Name = "textBoxUsuario";
-            this.textBoxUsuario.Size = new System.Drawing.Size(246, 20);
+            this.textBoxUsuario.Size = new System.Drawing.Size(246, 21);
             this.textBoxUsuario.TabIndex = 3;
             this.textBoxUsuario.Text = "Ingrese su usuario";
             this.textBoxUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -157,6 +160,8 @@
             // 
             this.labelUsuario.AutoSize = true;
             this.labelUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelUsuario.Font = new System.Drawing.Font("Unispace", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsuario.ForeColor = System.Drawing.Color.Red;
             this.labelUsuario.Location = new System.Drawing.Point(86, 0);
             this.labelUsuario.Name = "labelUsuario";
             this.labelUsuario.Size = new System.Drawing.Size(246, 36);
@@ -168,6 +173,8 @@
             // 
             this.labelContrasena.AutoSize = true;
             this.labelContrasena.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelContrasena.Font = new System.Drawing.Font("Unispace", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelContrasena.ForeColor = System.Drawing.Color.Red;
             this.labelContrasena.Location = new System.Drawing.Point(86, 96);
             this.labelContrasena.Name = "labelContrasena";
             this.labelContrasena.Size = new System.Drawing.Size(246, 39);
@@ -178,9 +185,10 @@
             // textBoxContrasena
             // 
             this.textBoxContrasena.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBoxContrasena.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxContrasena.Location = new System.Drawing.Point(86, 138);
             this.textBoxContrasena.Name = "textBoxContrasena";
-            this.textBoxContrasena.Size = new System.Drawing.Size(246, 20);
+            this.textBoxContrasena.Size = new System.Drawing.Size(246, 21);
             this.textBoxContrasena.TabIndex = 6;
             this.textBoxContrasena.Text = "Ingrese su contraseña";
             this.textBoxContrasena.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -205,28 +213,33 @@
             // 
             // buttonEntrar
             // 
+            this.buttonEntrar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.buttonEntrar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonEntrar.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEntrar.Location = new System.Drawing.Point(86, 3);
             this.buttonEntrar.Name = "buttonEntrar";
             this.buttonEntrar.Size = new System.Drawing.Size(247, 37);
             this.buttonEntrar.TabIndex = 0;
             this.buttonEntrar.Text = "Entrar";
-            this.buttonEntrar.UseVisualStyleBackColor = true;
+            this.buttonEntrar.UseVisualStyleBackColor = false;
             this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
             // checkBoxMostrar
             // 
             this.checkBoxMostrar.AutoSize = true;
+            this.checkBoxMostrar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.checkBoxMostrar.Checked = true;
             this.checkBoxMostrar.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxMostrar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.checkBoxMostrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBoxMostrar.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxMostrar.Location = new System.Drawing.Point(338, 138);
             this.checkBoxMostrar.Name = "checkBoxMostrar";
-            this.checkBoxMostrar.Size = new System.Drawing.Size(78, 17);
+            this.checkBoxMostrar.Size = new System.Drawing.Size(78, 18);
             this.checkBoxMostrar.TabIndex = 7;
             this.checkBoxMostrar.Text = "Mostrar";
-            this.checkBoxMostrar.UseVisualStyleBackColor = true;
+            this.checkBoxMostrar.UseVisualStyleBackColor = false;
             this.checkBoxMostrar.CheckedChanged += new System.EventHandler(this.checkBoxMostrar_CheckedChanged);
             // 
             // FormLogin
